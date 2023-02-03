@@ -1,0 +1,149 @@
+#header {
+    background-color: rgb(245, 245, 242);
+    border-radius: 45px; 
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+}
+#header a{
+    color: black;
+    text-decoration:none ;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 45px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.btn{
+    border: 2px solid gray;
+    background-color: rgb(238, 238, 233);
+    width: 85px;
+}
+.btn{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.container {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background: rgb(255, 255, 255);
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    border-top: 10px;
+    border-radius: 45px;     
+}
+.container img{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 45px;
+    border: 2px solid gray;
+}
+.name {
+    text-transform: uppercase;
+    text-align: center;
+}
+.puesto {
+    margin-top: -10px;
+    font-size: large;
+    text-align: center;
+}
+.cel {
+    font-size: medium ;
+    text-align: center;
+    margin-top: -15px;
+}
+.email{
+    font-size: medium ;
+    text-align: center;
+    margin-top: -15px;
+}
+.pais{
+    font-size: medium ;
+    text-align: center;
+    margin-top: -15px;
+}    
+.container p{
+    margin-top: 15px;
+    font-size: 15px;
+}
+#descripcion{
+    background: white;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    border-radius: 45px;
+    padding-bottom: 10px;    
+}
+#descripcion p{
+    font-size: 15px;
+}
+.perfil h6{
+    margin-top: 7px;
+    text-align: center;
+}
+.perfil p{
+    margin-top: 0px;
+    text-align: center;
+}
+.formacion h6{
+    margin-top: 7px;
+    text-align: center;
+}
+.formacion p{
+    margin-top: 0px;
+    text-align: center;
+}
+.experiencia h6{
+    margin-top: 7px;
+    text-align: center;
+}
+.experiencia li {
+    font-size: 15px;
+    text-align: center;
+}
+#redes{
+    background: white;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    border-radius: 45px;
+    padding-bottom: 10px; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+}
+.redes h6{
+    margin-top: 7px;
+    text-align: center;
+}
+#redes i{
+    font-size: 50px;
+   
+}
+#redes a .btn{
+    border-color: none;
+    
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: rgb(0, 0, 0);
+}
+#footer{
+    background-color: rgb(245, 245, 242);
+    border-radius: 45px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+#footer p{
+    border-radius: 45px; 
+    font-size: 14px;
+    margin-top: 16px;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+}
